@@ -1,0 +1,186 @@
+/* Responsive.css */
+
+/* Mobile Styles for max-width 768px */
+@media screen and (max-width: 768px) {
+
+  /* PAGE 1 */
+  #P1header {
+    flex-direction: column;
+    height: auto;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  #logo {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 0;
+  }
+
+  #toolbar {
+    width: 100%;
+    margin: 10px 0;
+    justify-content: space-around;
+    column-gap: 10px;
+    font-size: 12px;
+    flex-wrap: wrap;
+  }
+
+  #login_button {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  #P1mid {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    padding: 20px 0;
+  }
+
+  #content {
+    padding-left: 0;
+    width: 90%;
+  }
+
+  #c1 {
+    font-size: 28px;
+  }
+
+  #c2 {
+    font-size: 14px;
+    height: auto;
+  }
+
+  #c3 {
+    width: 120px;
+    padding: 10px;
+  }
+
+  #pics {
+    width: 80%;
+    height: auto;
+    padding-right: 0;
+    margin-top: 20px;
+  }
+
+  #P1footer #drops {
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    padding: 15px;
+  }
+
+  #drops p {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  #exp {
+    margin-left: 0;
+    margin-top: 10px;
+    width: 80%;
+  }
+
+  /* PAGE 2 */
+  #page2_cards {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  #signup_card {
+    width: 90%;
+    margin-bottom: 15px;
+  }
+
+  /* PAGE 3 */
+  #page3_cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #page3_card1 {
+    width: 90%;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+
+  /* PAGE 4 */
+  #page4_content {
+    flex-direction: column;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  #page4_images {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
+
+  #p4card1 {
+    width: 90%;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+
+  /* PAGE 5 */
+  #page5 {
+    flex-direction: column;
+    height: auto;
+    padding: 20px 0;
+  }
+
+  #page4_layout {
+    flex-direction: column;
+  }
+
+  #left_content, #right_content {
+    margin: 0;
+    width: 90%;
+    text-align: center;
+  }
+
+  #p5rc {
+    margin: 10px 0;
+    padding: 15px;
+  }
+
+  /* PAGE 6 */
+  #p6_images {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #p6_image_card {
+    width: 90%;
+    margin-bottom: 15px;
+  }
+
+  #p6image1 {
+    width: 100%;
+    height: auto;
+  }
+
+  /* PAGE 7 */
+  #footer_content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #footer_left, #footer_right {
+    margin: 10px 0;
+    width: 80%;
+    text-align: center;
+  }
+
+  #footer_right {
+    flex-direction: column;
+    margin-left: 0;
+  }
+
+}
