@@ -42,8 +42,9 @@ This project is ideal for demonstrating:
 Landing-page-1/
 │
 ├── index.html
-├── style.css
-├── script.js
+├── Task1.css
+├── Responsive.css
+├── ASSETS/
 └── README.md
 ```
 
@@ -64,13 +65,6 @@ cd Landing-page-1
 ```
 
 3. Open `index.html` in your browser.
-
----
-
-## 📬 Contact
-
-**Naveen Raj**
-GitHub: [https://github.com/srinaveenrajr](https://github.com/srinaveenrajr)
 
 ---
 
